@@ -1,0 +1,281 @@
+@import url(//fonts.googleapis.com/css?family=Avenir);
+
+.waysbean_font {
+  font-family: Avenir;
+  font-weight: bolder;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: #613d2b !important;
+  font-weight: bolder;
+}
+
+p {
+  color: #974a4a !important;
+  margin-bottom: 5px;
+}
+
+.arrow-up {
+  margin-top: -1.5em;
+  margin-left: 7.5em;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 25px solid rgb(255, 255, 255);
+}
+
+.dropdown-menu {
+  font-size: 20px;
+  border-radius: 0.3em;
+  margin-top: 1em !important;
+  margin-left: -7em !important;
+  box-shadow: 4px 4px 10px 0px black;
+}
+
+.dropdown_menu_custom {
+  padding: 0.5em;
+}
+
+.dropdown-divider {
+  width: 10em;
+}
+
+.fade {
+  background-color: rgba(0, 0, 0, 0.014) !important;
+}
+
+.modal-content {
+  padding: 2em 0em;
+  /* box-shadow: 0.5px 0.5px 10px 0px black !important; */
+  border-radius: 0.8em !important;
+}
+
+.form-control {
+  border-color: #613d2b !important;
+  background-color: rgba(97, 61, 43, 0.404);
+  border-width: 3px;
+  padding: 0.7em;
+  border-radius: 0.4em !important;
+}
+
+.form-control::placeholder {
+  color: #502d1c;
+}
+
+.form-control:focus {
+  border-color: #613d2b !important;
+  background-color: rgba(97, 61, 43, 0.199);
+  border-width: 3px;
+  padding: 0.7em;
+  border-radius: 0.4em !important;
+}
+
+.form-select {
+  border-color: #613d2b !important;
+  background-color: rgba(97, 61, 43, 0.26);
+  border-width: 3px;
+  padding: 0.7em;
+  border-radius: 0.4em !important;
+}
+
+.signin_custom {
+  padding: 1em;
+  width: 80%;
+  height: 20%;
+  border-radius: 10px;
+  margin-left: 3rem;
+  box-shadow: 0.5px 0.5px 10px 0px black !important;
+}
+
+.register_custom {
+  padding: 1em;
+  width: 80%;
+  height: 20%;
+  border-radius: 10px;
+  margin-left: 3rem;
+  box-shadow: 0.5px 0.5px 10px 0px black !important;
+}
+
+.cartPopup_custom {
+  padding: 1px;
+  width: 22em;
+  height: 3.7em;
+  border-radius: 5px;
+  margin-top: 7em;
+  margin-left: 44.5rem;
+}
+
+.checkoutPopup_custom {
+  padding: 1px;
+  width: 30em;
+  height: 6.5em;
+  border-radius: 5px;
+  margin-top: 7em;
+  margin-left: 1rem;
+}
+
+.notif_cart {
+  width: 1em;
+  margin-top: -1em;
+  margin-left: -2.6em;
+  margin-right: 1em;
+}
+
+.notif_cart_text {
+  font-size: 12px;
+  margin-top: 0.7em;
+  margin-left: -2.3em;
+}
+
+.dropdown-dividerr {
+  background-color: #613d2b;
+  width: 100%;
+  height: 1px;
+}
+
+.img_cart {
+  width: 5em;
+  margin-top: 0.2em;
+}
+
+.cart_name {
+  margin-top: 1em;
+  margin-left: 1em;
+}
+
+.cart_price {
+  margin-top: 1.3em;
+  margin-left: 28.3em;
+}
+
+.cart_min {
+  margin-top: 2em;
+  margin-left: -2.9em;
+}
+
+.cart_plus {
+  margin-top: 2.7em;
+  margin-left: 0.1em;
+}
+
+.cart_trash {
+  width: 2em;
+  margin-top: 4.5em;
+  margin-left: -1.5em;
+}
+
+.cart_count {
+  margin-top: 5.8em;
+  margin-left: 0.2em;
+  width: 2.5em;
+  height: 1.5em;
+  border-radius: 0.5em;
+  background-color: rgba(246, 230, 218, 1);
+}
+
+.jumbotron_custom {
+  background-color: #dbb699;
+  margin-left: 13.5em;
+  width: 72rem;
+  height: 27rem;
+  padding: 50px;
+}
+
+.jumbotron_img {
+  width: 29em;
+  margin-left: 62em;
+  margin-bottom: -23.5em;
+}
+
+.jumbotron_img_waves {
+  margin-left: 55em;
+  margin-bottom: -48em;
+}
+
+.btn-primary {
+  background-color: #613d2b !important;
+  border: none !important;
+  height: 2rem !important;
+}
+
+.btn-success {
+  background-color: #0acf83 !important;
+  border: none !important;
+  height: 1.9rem !important;
+}
+
+.btn-danger {
+  background-color: #ff0742 !important;
+  border: none !important;
+  height: 1.9rem !important;
+}
+
+.btn-outline-primary {
+  border-color: #613d2b !important;
+  border-width: 2px;
+  color: #613d2b !important;
+  width: 8rem !important;
+  height: 2rem !important;
+}
+
+.btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #613d2b !important;
+}
+
+.navbar {
+  box-shadow: 0.1px -10px 30px 1px rgb(43, 43, 43) !important;
+}
+
+.card_product_custom {
+  background-color: #f6e6da;
+}
+
+.card_custom {
+  background-color: #f6e6da;
+  width: 52em;
+  height: 16em;
+}
+
+.img_custom {
+  width: 68%;
+  padding: 10px;
+  margin-top: 9px;
+  margin-left: 24px;
+}
+
+.trx_status {
+  width: 15em;
+  margin-left: -3em;
+}
+
+.img_detail {
+  margin-left: 2em;
+  margin-top: 5em;
+}
+
+.text_detail {
+  margin-left: 3em;
+  margin-top: 3em;
+}
+
+.text_stock {
+  margin-left: 7.7em;
+  margin-top: 1em;
+}
+
+.text_desc {
+  margin-left: 6em;
+  margin-top: 2em;
+}
+
+.text_price {
+  margin-left: 21.3em;
+  margin-top: 2em;
+}
